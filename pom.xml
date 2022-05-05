@@ -32,8 +32,8 @@
 				<extensions>true</extensions>
 				<configuration>
 				 <cloudHubDeployment>
-				  <username>bdwivedi</username>
-				  <enviornment>Sandbox</enviornment>
+				  <username>bdwivedi</username>				  
+				  <environment>Sandbox</environment>
 				  <workers>1</workers>
 				  <workerType>Micro</workerType>
 				  <applicationName>worldtimezone-service</applicationName>
