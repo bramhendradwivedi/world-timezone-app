@@ -32,13 +32,14 @@
 				<extensions>true</extensions>
 				<configuration>
 				 <cloudHubDeployment>
+				  <uri>https://anypoint.mulesoft.com</uri>				  
 				  <username>bdwivedi</username>				  
 				  <environment>Sandbox</environment>
 				  <workers>1</workers>
 				  <workerType>Micro</workerType>
 				  <applicationName>worldtimezone-service</applicationName>
 				  <password>Cisco@2022</password>
-				  <muleVersion>4.1.3</muleVersion>
+				  <muleVersion>4.3.0</muleVersion>
 				 </cloudHubDeployment>
 				</configuration>
 			</plugin>
