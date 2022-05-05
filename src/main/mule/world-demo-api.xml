@@ -20,5 +20,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	region : attributes.uriParams.region
 }]]]></http:uri-params>
 		</http:request>
+		<logger level="INFO" doc:name="Logger" doc:id="77e74f44-e11a-4ec1-a082-3486b4eb6000" message="API is executed successfully"/>
 	</flow>
 </mule>
