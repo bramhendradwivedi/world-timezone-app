@@ -13,7 +13,6 @@
     <properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
 		<app.runtime>4.3.0</app.runtime>
 		<mule.maven.plugin.version>3.3.5</mule.maven.plugin.version>
 	</properties>
@@ -37,9 +36,10 @@
 				  <environment>Sandbox</environment>
 				  <workers>1</workers>
 				  <workerType>Micro</workerType>
-				  <applicationName>worldtimezone-service</applicationName>
+				  <applicationName>worldtimezone-BD</applicationName>
 				  <password>Cisco@2022</password>
 				  <muleVersion>4.3.0</muleVersion>
+				  <objectStoreV2>true</objectStoreV2>
 				 </cloudHubDeployment>
 				</configuration>
 			</plugin>
