@@ -1,0 +1,11 @@
+pipeline
+	{
+	agent any
+	stages
+	 stage('Build Application'){
+	  bat 'mvn clean install'
+	 }
+	 stage('Deploy Application to Mulesoft Cloudhub'){
+	  bat 'mvn clean package deploy -DmuleDeploy'
+	 }
+	}
