@@ -94,7 +94,14 @@
             <version>2.2.5</version>
             <classifier>mule-plugin</classifier>
             <scope>test</scope>
-        </dependency>        
+        </dependency>
+        
+        <dependency>
+			<groupId>com.mulesoft.munit</groupId>			
+			<artifactId>munit-remote</artifactId>			
+			<version>${munit.version}</version>			
+			<scope>test</scope>
+		</dependency>        
     </dependencies>
 
 	<repositories>
